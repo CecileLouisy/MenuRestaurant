@@ -1,0 +1,53 @@
+.alert {
+    color: red;
+}
+li {
+    list-style-type: none;
+}
+a, button {
+    text-decoration: none;
+    color: white;
+    background: rgb(8, 89, 228);
+    padding: 15%;
+    border-radius: 5%;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.modif {
+    background: rgb(255, 191, 0);
+}
+.del {
+    background: rgb(171, 29, 7);
+}
+.plats {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 0.5%;
+    gap: 3%;
+}
+
+.add {
+    padding: 0.5%;
+    margin-top: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.voir {
+    padding:27%;
+}
+.category {
+    font-size: 16px;
+}
+.name {
+    font-size: 20px;
+}
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
